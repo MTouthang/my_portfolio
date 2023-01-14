@@ -11,7 +11,7 @@ const About = () => {
         </div>
 
         <div className="about_sub">
-          <p>FrontEnd & BackEnd Developer</p>
+          <p> JavaScript Full Stack developer</p>
         </div>
 
         <div className="about_description">
