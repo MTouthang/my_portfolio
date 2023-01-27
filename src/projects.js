@@ -3,14 +3,24 @@ import paytm from "./asset/image/paytm.PNG";
 import shopify from "./asset/image/shopify.PNG";
 import rode from "./asset/image/rode.PNG";
 import visualDesigner from "./asset/image/visualDesigner.PNG";
-import dance from "./asset/image/dance.PNG";
+// import dance from "./asset/image/dance.PNG";
 import saas from "./asset/image/saas.PNG";
 import business from "./asset/image/business.PNG";
 import hosting from "./asset/image/hosting.PNG";
-import interior from "./asset/image/interiordsg.PNG";
+import weatherapp from "./asset/image/weatherapp.PNG";
 import companyAPI from "./asset/image/companyAPI.png";
+import notes from "./asset/image/noteskeeperapp.PNG";
 
 export const projects = [
+  {
+    title: "Notes keeper app",
+    description:
+      "Notes keeper app where user can perform note taking with user authentication service provided",
+    technology: "Mongodb, Express, React and Node",
+    thumbnail: notes,
+    github: "https://github.com/MTouthang/notes-keeping-app",
+    demo: "https://noteskeeperweb.netlify.app/",
+  },
   {
     title: "Task-Todo",
     description:
@@ -61,13 +71,13 @@ export const projects = [
     demo: "https://comwithapidemo.netlify.app/",
   },
   {
-    title: "Interior-design",
+    title: "Weather app",
     description:
-      "Minimalist Interior-design landing page built with HTML and CSS ",
-    technology: "HTML and  CSS",
-    thumbnail: interior,
+      "Minimalist and simple app that gives weather base on a city name",
+    technology: "React, Axios, tailwind and React-toastify",
+    thumbnail: weatherapp,
     github: "https://github.com/MTouthang/html-css-project/tree/main/proj10",
-    demo: "https://interiordsgn.netlify.app/",
+    demo: "https://openmapweatherapi.netlify.app/",
   },
   {
     title: "Hosting website",
@@ -96,15 +106,7 @@ export const projects = [
     github: "https://github.com/MTouthang/html-css-project/tree/main/proj13",
     demo: "https://saas1010.netlify.app/",
   },
-  {
-    title: "Dance landing page",
-    description:
-      "Simple Dance landing page web application demo built with HTML and CSS ",
-    technology: "HTML and  CSS",
-    thumbnail: dance,
-    github: "https://github.com/MTouthang/html-css-project/tree/main/proj14",
-    demo: "https://dancec101.netlify.app/",
-  },
+
   {
     title: "Visual Designer",
     description:
